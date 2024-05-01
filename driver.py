@@ -2,7 +2,7 @@ import os
 import weasyprint
 from jinja2 import Environment, FileSystemLoader
 
-ROOT = '/Users/hzhang/Lab/python-projects/my-weasyprint'
+ROOT = '.'
 ASSETS_DIR = os.path.join(ROOT, 'assets')
 
 TEMPLAT_SRC = os.path.join(ROOT, 'templates')
