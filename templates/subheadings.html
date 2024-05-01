@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Variable Subheadings</title>
+</head>
+<body>
+    <h1>Main Heading</h1>
+    {% for item in template_vars %}
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+    {% endfor %}
+</body>
+</html>
